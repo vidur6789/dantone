@@ -1,0 +1,1590 @@
+2019-07-21 21:30:30,045 -INFO-Screening 4157 stocks
+2019-07-21 21:30:31,646 -ERROR-Exception for 532268. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:31,650 -ERROR-Exception for 532848. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:31,664 -ERROR-Exception for 533293. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:40,365 -ERROR-Exception for 532899. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:40,373 -ERROR-Exception for 500800. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:40,378 -ERROR-Exception for 500126. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:40,396 -ERROR-Exception for 500124. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:40,856 -ERROR-Exception for 500331. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:41,924 -ERROR-Exception for 532553. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:41,973 -ERROR-Exception for 539523. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:41,989 -ERROR-Exception for 532221. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:41,999 -ERROR-Exception for 513375. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,009 -ERROR-Exception for 532668. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,070 -ERROR-Exception for 500676. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,100 -ERROR-Exception for 523367. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,105 -ERROR-Exception for 533098. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,146 -ERROR-Exception for 513010. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:42,177 -ERROR-Exception for 540692. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:43,295 -ERROR-Exception for 524000. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:43,651 -ERROR-Exception for 500339. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:44,030 -ERROR-Exception for 533265. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:44,416 -ERROR-Exception for CAPLIPOINT. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:44,776 -ERROR-Exception for 530001. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:45,124 -ERROR-Exception for 523319. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:45,132 -ERROR-Exception for 532540. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:45,134 -ERROR-Exception for 532443. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:45,496 -ERROR-Exception for 532927. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:46,573 -ERROR-Exception for 505790. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:46,935 -ERROR-Exception for ESSELPACK. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:47,295 -ERROR-Exception for 534816. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:47,757 -ERROR-Exception for 540935. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:48,875 -ERROR-Exception for 531642. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:48,878 -ERROR-Exception for 512573. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,239 -ERROR-Exception for 533206. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,625 -ERROR-Exception for 532523. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,655 -ERROR-Exception for 500114. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,662 -ERROR-Exception for 500790. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,666 -ERROR-Exception for 532234. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,668 -ERROR-Exception for 524200. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,678 -ERROR-Exception for 533344. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:49,683 -ERROR-Exception for 539889. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:50,039 -ERROR-Exception for 504067. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:50,062 -ERROR-Exception for 522113. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:50,068 -ERROR-Exception for 500257. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:50,103 -ERROR-Exception for 532890. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:51,194 -ERROR-Exception for 505537. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:52,334 -ERROR-Exception for 532856. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:52,707 -ERROR-Exception for 517174. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:52,713 -ERROR-Exception for 532466. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:52,734 -ERROR-Exception for 532281. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:53,133 -ERROR-Exception for 500488. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:53,571 -ERROR-Exception for 500144. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:53,574 -ERROR-Exception for 500405. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:54,264 -ERROR-Exception for M&M. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:54,275 -ERROR-Exception for 539524. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:54,623 -ERROR-Exception for 500252. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:54,626 -ERROR-Exception for 500408. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:54,650 -ERROR-Exception for 532827. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:55,837 -ERROR-Exception for 507880. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,220 -ERROR-Exception for 540025. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,242 -ERROR-Exception for 532921. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,589 -ERROR-Exception for 524715. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,594 -ERROR-Exception for 524742. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,597 -ERROR-Exception for 532663. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,605 -ERROR-Exception for 512179. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,607 -ERROR-Exception for 533286. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,984 -ERROR-Exception for 530813. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:56,986 -ERROR-Exception for 500710. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:57,744 -ERROR-Exception for 506414. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:57,748 -ERROR-Exception for 500189. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:57,756 -ERROR-Exception for 524404. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:57,759 -ERROR-Exception for 507717. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,168 -ERROR-Exception for 500235. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,175 -ERROR-Exception for 500680. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,211 -ERROR-Exception for NBVENTURES. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,214 -ERROR-Exception for 517385. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,232 -ERROR-Exception for 524667. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,238 -ERROR-Exception for 539883. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,240 -ERROR-Exception for 532175. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:30:58,987 -ERROR-Exception for 531595. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:00,308 -ERROR-Exception for 517506. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:00,681 -ERROR-Exception for 532733. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:00,684 -ERROR-Exception for 500033. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:00,685 -ERROR-Exception for 530549. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,098 -ERROR-Exception for 530871. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,101 -ERROR-Exception for 500238. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,106 -ERROR-Exception for 500672. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,112 -ERROR-Exception for 533655. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,116 -ERROR-Exception for CDSL. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,127 -ERROR-Exception for 500472. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,131 -ERROR-Exception for 523704. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,133 -ERROR-Exception for 500165. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,139 -ERROR-Exception for 540073. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,140 -ERROR-Exception for 509488. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,165 -ERROR-Exception for 532400. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,169 -ERROR-Exception for 533217. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,528 -ERROR-Exception for 590062. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:01,905 -ERROR-Exception for 532509. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:02,653 -ERROR-Exception for 532522. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,100 -ERROR-Exception for 509966. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,103 -ERROR-Exception for 532953. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,110 -ERROR-Exception for 500355. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,499 -ERROR-Exception for 532755. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,501 -ERROR-Exception for 530019. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,504 -ERROR-Exception for 532488. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,515 -ERROR-Exception for 541556. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,873 -ERROR-Exception for 500820. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,878 -ERROR-Exception for 507685. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,886 -ERROR-Exception for 526299. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:03,889 -ERROR-Exception for 533106. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:04,267 -ERROR-Exception for 533179. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:04,274 -ERROR-Exception for 540680. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:04,275 -ERROR-Exception for 530239. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:04,281 -ERROR-Exception for 532541. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:04,306 -ERROR-Exception for 534091. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:05,067 -ERROR-Exception for 500439. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:06,176 -ERROR-Exception for AURIONPRO. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:06,189 -ERROR-Exception for 506943. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:06,197 -ERROR-Exception for 532382. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:06,913 -ERROR-Exception for AVANTIFEED. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:06,923 -ERROR-Exception for 540497. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:07,309 -ERROR-Exception for 539874. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:07,311 -ERROR-Exception for 506390. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,168 -ERROR-Exception for RHFL. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,170 -ERROR-Exception for GESHIP. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,185 -ERROR-Exception for 509480. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,187 -ERROR-Exception for 500168. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,194 -ERROR-Exception for 532515. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,196 -ERROR-Exception for 524051. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,200 -ERROR-Exception for 539450. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,204 -ERROR-Exception for 500770. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,214 -ERROR-Exception for 500209. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,216 -ERROR-Exception for 524816. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,224 -ERROR-Exception for 520111. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:08,698 -ERROR-Exception for 523398. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,761 -ERROR-Exception for 512070. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,780 -ERROR-Exception for 533273. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,793 -ERROR-Exception for 500092. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,801 -ERROR-Exception for 532366. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,821 -ERROR-Exception for 540767. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,823 -ERROR-Exception for 532622. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,827 -ERROR-Exception for 532331. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,829 -ERROR-Exception for 532700. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:09,844 -ERROR-Exception for 511676. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:10,304 -ERROR-Exception for 505010. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:10,682 -ERROR-Exception for 500087. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:10,685 -ERROR-Exception for 500233. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,051 -ERROR-Exception for 504614. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,080 -ERROR-Exception for 501455. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,082 -ERROR-Exception for 532504. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,118 -ERROR-Exception for 506690. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,125 -ERROR-Exception for 540900. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,475 -ERROR-Exception for 526371. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,479 -ERROR-Exception for 541729. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,840 -ERROR-Exception for 524084. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,848 -ERROR-Exception for 500020. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,851 -ERROR-Exception for 500459. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:11,852 -ERROR-Exception for 534804. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,225 -ERROR-Exception for 513023. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,241 -ERROR-Exception for 539807. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,252 -ERROR-Exception for 532156. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,257 -ERROR-Exception for 539268. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,612 -ERROR-Exception for 539150. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,623 -ERROR-Exception for 590021. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:12,975 -ERROR-Exception for 531847. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:13,333 -ERROR-Exception for 500039. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:13,337 -ERROR-Exception for 500480. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:13,338 -ERROR-Exception for 538666. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,253 -ERROR-Exception for 500690. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,269 -ERROR-Exception for 540115. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,275 -ERROR-Exception for 500674. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,310 -ERROR-Exception for 532301. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,328 -ERROR-Exception for 532819. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,346 -ERROR-Exception for 539207. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,358 -ERROR-Exception for 532835. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,361 -ERROR-Exception for 540005. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,366 -ERROR-Exception for 532777. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,384 -ERROR-Exception for 590005. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,393 -ERROR-Exception for 500008. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,416 -ERROR-Exception for 541143. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,425 -ERROR-Exception for 500550. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,429 -ERROR-Exception for 533023. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,838 -ERROR-Exception for 500103. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:14,850 -ERROR-Exception for 509631. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,260 -ERROR-Exception for M&MFIN. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,262 -ERROR-Exception for 541195. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,267 -ERROR-Exception for 505714. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,283 -ERROR-Exception for 500041. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,295 -ERROR-Exception for 539678. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,980 -ERROR-Exception for INFY. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:16,983 -ERROR-Exception for 522074. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:20,991 -ERROR-Exception for 532889. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,004 -ERROR-Exception for 533229. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,012 -ERROR-Exception for 526881. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,038 -ERROR-Exception for 515055. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,042 -ERROR-Exception for 506235. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,494 -ERROR-Exception for 523716. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,500 -ERROR-Exception for 511431. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,503 -ERROR-Exception for 500870. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,516 -ERROR-Exception for 500266. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,539 -ERROR-Exception for 532313. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,977 -ERROR-Exception for 500188. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,984 -ERROR-Exception for 539448. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,989 -ERROR-Exception for 501425. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:21,998 -ERROR-Exception for 519600. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,353 -ERROR-Exception for 500002. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,361 -ERROR-Exception for 506285. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,385 -ERROR-Exception for 532892. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,394 -ERROR-Exception for BSE. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,419 -ERROR-Exception for 500825. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,438 -ERROR-Exception for 502986. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,444 -ERROR-Exception for 533151. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,452 -ERROR-Exception for 513683. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,463 -ERROR-Exception for 524226. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,480 -ERROR-Exception for 533336. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 75, in evaluate
+    outcome = Filter.is_available(earning) and Decimal(earning) > 0
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,482 -ERROR-Exception for 541557. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:22,846 -ERROR-Exception for 500135. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:23,218 -ERROR-Exception for 500620. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:23,908 -ERROR-Exception for 532500. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:23,913 -ERROR-Exception for 532296. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:23,921 -ERROR-Exception for 540709. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,294 -ERROR-Exception for 505355. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,302 -ERROR-Exception for 500290. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,303 -ERROR-Exception for 532129. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,316 -ERROR-Exception for 500530. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,326 -ERROR-Exception for 532726. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
+2019-07-21 21:31:24,341 -ERROR-Exception for 506076. Error Log: [<class 'decimal.ConversionSyntax'>]
+Traceback (most recent call last):
+  File "C:/Users/Vidur/PycharmProjects/dantone/com/thothink/ScreenData.py", line 27, in filter_stock
+    if not filter_item.evaluate(stock):
+  File "C:\Users\Vidur\PycharmProjects\dantone\com\thothink\screen\filters.py", line 85, in evaluate
+    return Filter.is_available([first_earnings, last_earnings]) and Decimal(last_earnings) > Decimal(first_earnings)
+decimal.InvalidOperation: [<class 'decimal.ConversionSyntax'>]
