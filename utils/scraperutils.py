@@ -85,13 +85,13 @@ def extract_columns(values, column_key):
     return [value[column_key] for value in values]
 
 def write_progress(scraped, pending, errors):
-    os.makedirs(os.path.dirname(str(PATH_TMP)), exist_ok=True)
-    with open(str(PATH_TMP / "progress"), "w") as f:
+    os.makedirs(os.path.dirname(str(constant.PATH_TMP)+'/'), exist_ok=True)
+    with open(str(constant.PATH_TMP / "progress"), "w") as f:
         f.write("scraped :" + str(len(scraped)) + "\n")
         f.write("pending: " + str(len(pending)) + "\n")
         f.write("errors: " + str(len(errors)) + "\n")
 
-    with open(str(PATH_TMP / "pending"), "w") as f:
+    with open(str(constant.PATH_TMP / "pending"), "w") as f:
         f.write(str(list(pending)))
 
 

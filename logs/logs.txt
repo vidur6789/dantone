@@ -1,0 +1,45 @@
+2020-08-15 16:28:20,860 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 16:28:20,860 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:28:32,629 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:28:41,670 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
+Traceback (most recent call last):
+  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
+    pending.remove(ticker)
+KeyError: 'BBCA'
+2020-08-15 16:31:46,630 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 16:31:46,631 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:31:54,405 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:32:07,274 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
+Traceback (most recent call last):
+  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
+    pending.remove(ticker)
+KeyError: 'BBCA'
+2020-08-15 16:37:08,418 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 16:37:08,419 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:37:16,216 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:37:30,009 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
+Traceback (most recent call last):
+  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
+    pending.remove(ticker)
+KeyError: 'BBCA'
+2020-08-15 16:38:11,155 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 16:38:11,156 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:38:18,962 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:38:27,714 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
+Traceback (most recent call last):
+  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
+    pending.remove(ticker)
+KeyError: 'BBCA'
+2020-08-15 16:56:45,588 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 16:56:45,588 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:56:54,577 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 16:57:08,351 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
+Traceback (most recent call last):
+  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
+    pending.remove(ticker)
+KeyError: 'BBCA'
+2020-08-15 17:03:03,997 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 17:03:24,007 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 17:05:58,934 -INFO-Fetching statistics for ['BBCA']
+2020-08-15 17:05:58,935 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-15 17:06:10,266 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc

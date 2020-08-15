@@ -1,9 +1,10 @@
 from pathlib import Path
 
 # paths
-PATH_CONFIG = "C:/Users/Vidur/PycharmProjects/dantone/config"
-PATH_TMP = Path("C:/Users/Vidur/PycharmProjects/dantone/tmp")
-PATH_OUT = Path("../../config/output")
+PATH_CONFIG = Path("config")
+PATH_TMP = Path("logs")
+PATH_OUT = Path("output")
+PATH_IN = Path("input")
 
 # keywords
 NO_CONTENT = "NA"
