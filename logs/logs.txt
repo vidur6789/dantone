@@ -1,45 +1,146 @@
-2020-08-15 16:28:20,860 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 16:28:20,860 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:28:32,629 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:28:41,670 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
-Traceback (most recent call last):
-  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
-    pending.remove(ticker)
-KeyError: 'BBCA'
-2020-08-15 16:31:46,630 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 16:31:46,631 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:31:54,405 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:32:07,274 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
-Traceback (most recent call last):
-  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
-    pending.remove(ticker)
-KeyError: 'BBCA'
-2020-08-15 16:37:08,418 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 16:37:08,419 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:37:16,216 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:37:30,009 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
-Traceback (most recent call last):
-  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
-    pending.remove(ticker)
-KeyError: 'BBCA'
-2020-08-15 16:38:11,155 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 16:38:11,156 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:38:18,962 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:38:27,714 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
-Traceback (most recent call last):
-  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
-    pending.remove(ticker)
-KeyError: 'BBCA'
-2020-08-15 16:56:45,588 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 16:56:45,588 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:56:54,577 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 16:57:08,351 -ERROR-Exception in MorningStarScraper.get_results for: BBCA
-Traceback (most recent call last):
-  File "/Users/vidurpuliani/Documents/GitHub/dantone/scrape/finance/morningstar/MorningStarScraper.py", line 31, in get_results
-    pending.remove(ticker)
-KeyError: 'BBCA'
-2020-08-15 17:03:03,997 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 17:03:24,007 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 17:05:58,934 -INFO-Fetching statistics for ['BBCA']
-2020-08-15 17:05:58,935 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
-2020-08-15 17:06:10,266 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:15,155 -INFO-Fetching statistics for ['BBCA', 'BBRI', 'TLKM', 'ASII', 'BMRI', 'UNVR', 'CPIN', 'BBNI', 'KLBF', 'INDF', 'SMGR', 'INKP', 'BRPT', 'GGRM', 'ICBP', 'INTP', 'ADRO', 'HMSP', 'PGAS', 'TBIG', 'ACES', 'UNTR', 'TKIM', 'EXCL', 'JSMR', 'BTPS', 'SCMA', 'BBTN', 'CTRA', 'PTBA', 'ANTM', 'PWON', 'SMRA', 'MAPI', 'MNCN', 'LPKR', 'BSDE', 'AKRA', 'JPFA', 'SIDO', 'ISAT', 'APIC', 'WIKA', 'PTPP', 'BOGA', 'DMAS', 'ERAA', 'ITMG', 'WSKT', 'MEDC', 'PNLF', 'LPPF', 'SSMS', 'SMSM', 'BUMI', 'BJBR', 'MYRX', 'BJTM', 'WSBP', 'LINK', 'RALS', 'LSIP', 'IIKP', 'TRAM', 'NATO', 'TAMU', 'AALI', 'RIMO', 'TARA', 'BLTA', 'POOL', 'SIAP', 'SUGI', 'INVS']
+2020-08-16 21:06:15,156 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:23,765 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBCA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:34,551 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBRI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:42,510 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBRI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:49,851 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TLKM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:06:58,666 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TLKM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:07:12,097 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ASII&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:07:25,667 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ASII&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:07:35,242 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BMRI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:07:42,827 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BMRI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:07:53,467 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=UNVR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:02,053 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=UNVR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:10,969 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=CPIN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:24,562 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=CPIN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:38,339 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBNI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:50,834 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBNI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:08:59,384 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=KLBF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:06,877 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=KLBF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:17,228 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=INDF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:27,758 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=INDF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:40,126 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SMGR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:47,753 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SMGR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:09:58,511 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=INKP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:08,083 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=INKP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:17,439 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BRPT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:29,018 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BRPT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:40,425 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=GGRM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:52,063 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=GGRM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:10:59,857 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ICBP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:11:09,421 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ICBP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:11:20,856 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=INTP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:11:32,515 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=INTP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:11:42,932 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ADRO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:11:52,425 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ADRO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:12:02,000 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=HMSP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:12:12,671 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=HMSP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:12:25,061 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=PGAS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:12:36,625 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=PGAS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:12:49,228 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TBIG&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:00,719 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TBIG&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:08,092 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ACES&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:16,871 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ACES&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:25,364 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=UNTR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:38,032 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=UNTR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:46,359 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TKIM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:13:56,123 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TKIM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:04,561 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=EXCL&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:18,443 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=EXCL&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:26,223 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=JSMR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:36,748 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=JSMR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:46,119 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BTPS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:14:54,923 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BTPS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:05,364 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SCMA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:18,874 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SCMA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:26,203 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BBTN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:36,161 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BBTN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:44,623 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=CTRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:15:57,622 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=CTRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:16:10,026 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=PTBA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:16:21,679 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=PTBA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:16:35,087 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ANTM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:16:46,872 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ANTM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:16:56,293 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=PWON&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:17:08,895 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=PWON&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:17:20,397 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SMRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:17:31,928 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SMRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:17:39,271 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=MAPI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:17:51,873 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=MAPI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:03,307 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=MNCN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:14,138 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=MNCN&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:22,620 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=LPKR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:34,487 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=LPKR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:46,900 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BSDE&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:18:58,253 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BSDE&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:08,665 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=AKRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:19,259 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=AKRA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:27,821 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=JPFA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:37,095 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=JPFA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:44,467 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SIDO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:19:55,104 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SIDO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:20:06,429 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ISAT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:20:17,763 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ISAT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:20:31,217 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=APIC&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:20:40,739 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=APIC&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:20:54,412 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=WIKA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:21:05,697 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=WIKA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:21:19,228 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=PTPP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:21:32,519 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=PTPP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:21:41,847 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BOGA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:21:52,139 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BOGA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:22:01,041 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=DMAS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:22:09,414 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=DMAS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:22:22,866 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ERAA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:36:47,821 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ERAA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:37:01,189 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=ITMG&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 21:37:10,666 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=ITMG&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 23:37:21,033 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=WSKT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-16 23:37:31,179 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=WSKT&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:21:48,218 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=MEDC&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:02,106 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=MEDC&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:11,489 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=PNLF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:25,192 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=PNLF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:36,224 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=LPPF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:44,833 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=LPPF&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:22:57,608 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SSMS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:23:09,472 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SSMS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:23:50,880 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BUMI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:23:58,686 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BJBR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:24:11,397 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BJBR&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:24:21,455 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=MYRX&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:24:34,331 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=MYRX&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:24:44,148 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BJTM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:24:54,992 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BJTM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:02,773 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=WSBP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:13,607 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=WSBP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:24,491 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=LINK&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:34,212 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=LINK&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:43,258 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=RALS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:25:50,971 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=RALS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:04,967 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=LSIP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:17,904 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=LSIP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:31,726 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=IIKP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:39,383 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=IIKP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:51,623 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TRAM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:26:59,244 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TRAM&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:11,315 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=NATO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:19,319 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=NATO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:28,994 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TAMU&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:37,595 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TAMU&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:45,440 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=AALI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:27:59,473 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=AALI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:28:11,522 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=RIMO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:28:20,119 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=RIMO&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:28:29,892 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=TARA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:28:42,977 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=TARA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:28:52,823 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=BLTA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:29:05,466 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=BLTA&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:29:17,635 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=POOL&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:29:32,661 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=POOL&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:29:45,463 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SIAP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:29:55,317 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SIAP&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:30:04,298 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=SUGI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:30:12,057 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=SUGI&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:30:21,883 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getFinancePart.html?&t=INVS&region=idn&culture=en-US&version=SAL&cur=&order=asc
+2020-08-17 01:30:30,741 -INFO-Requesting :http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t=INVS&region=idn&culture=en-US&version=SAL&cur=&order=asc

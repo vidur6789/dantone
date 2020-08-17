@@ -28,7 +28,6 @@ def get_results(tickers):
                 intermediate_results = scrape(ticker)
                 stock[key] = intermediate_results
                 stocks.append(stock)
-                pending.remove(ticker)
                 err_count = 0  # reset consecutive error count
             except ContentNotFoundException as ce:
                 logging.exception("ContentNotFoundException in MorningStarScraper.get_results for: " + ticker)
@@ -37,6 +36,7 @@ def get_results(tickers):
                 logging.exception("Exception in MorningStarScraper.get_results for: " + ticker)
                 errors.append(Error(ticker, e))
                 err_count += 1
+        pending.remove(ticker)
         if err_count >= 5:
             break
     write_progress(stocks, pending, errors)
@@ -46,8 +46,4 @@ def get_results(tickers):
 
 
 
-# Things  to improve
-# Config
-# Dev Config
-# Continue?
-# Use relative path from main
+

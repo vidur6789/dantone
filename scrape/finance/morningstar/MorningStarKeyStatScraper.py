@@ -15,6 +15,7 @@ def get_attribute_values(table_set):
 
 def get_attribute_values_from_table(table_soup):
 	key_stats = []
+	name_prefix = ''
 	thead = table_soup.find('thead')
 	columns = get_columns(thead.find_all('th'))
 	tbody = table_soup.find('tbody')
@@ -23,14 +24,14 @@ def get_attribute_values_from_table(table_soup):
 			cell_tags = row_head.find_next_siblings('td')
 			row_name = row_head.string
 			# header row with no cell data. use as prefix for next row's name
-			name_prefix = row_name if len(cell_tags) < 1 else ""
 			if len(cell_tags) < 1:
+				name_prefix = row_name + " "
 				continue
 			stat_values = []
 			for column in columns:
 				value = cell_tags[column.index].string
 				stat_values.append({"period": column.name, "value": value})
-			stat = {"name": name_prefix + row_name, "values": stat_values}
+			stat = {"name": f"{name_prefix}{row_name}", "values": stat_values}
 			key_stats.append(stat)
 	return key_stats
 

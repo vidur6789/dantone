@@ -15,6 +15,7 @@ import utils.commonutils as utils
 stock_file_path = PATH_IN / "StockList.xlsx"
 stat_file_path = PATH_IN / 'StatList.xlsx'
 out_file_name = 'Results ' + utils.current_datetime_str()
+# ERROR/WARN(prod)/INFO(dev/monitor)/DEBUG(dev)
 logging.basicConfig(filename=str(PATH_TMP / "logs.txt"), format='%(asctime)s -%(levelname)s-%(message)s',
                     level=logging.INFO, filemode="a")
 
@@ -45,3 +46,12 @@ if __name__ == "__main__":
     main()
 else:
     print("Executing as Module")
+
+# TODO
+'''
+- combine key and finance stats
+- normalize attribute names
+- create stock class
+- get attribute names
+- region config
+'''

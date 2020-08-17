@@ -27,6 +27,7 @@ FILE_MS_KEY_STAT = "MorningStarKeyStat"
 FILE_MS_FIN_STAT = "MorningStarFinStat"
 FILE_MS_STAT = "MorningStarStat"
 FILE_MS_STAT_NAMES = "MorningStarStatNames"
+FILE_EIDO = "EIDO_2020-08-16051532661688.json"
 
 # parameter names
 PARAM_CURR_RATIO = "Current Ratio"

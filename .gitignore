@@ -1,4 +1,5 @@
 *.DS_Store
+output/*
 .vscode
 /config/output/*
 # Byte-compiled / optimized / DLL files
