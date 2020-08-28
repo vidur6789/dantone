@@ -5,6 +5,8 @@ import utils.commonutils as utils
 import utils.scraperutils as scraperutils
 from constants.namedtuples import Column
 import unicodedata
+from constants.exceptions import ContentNotFoundException
+
 
 
 def get_attribute_values(table_set):
@@ -48,7 +50,7 @@ def get_columns(iterable):
 	return columns
 
 
-def build_request_url(ticker: str, region_code='idn'):
+def build_request_url(ticker: str, region_code='usa'):
 	request_api_prefix = 'http://financials.morningstar.com/finan/financials/getFinancePart.html?'
 	ticker_param = f'&t={ticker}&region={region_code}&culture=en-US&version=SAL&cur=&order=asc'
 	return request_api_prefix + ticker_param
@@ -71,6 +73,7 @@ def get_results(ticker):
 	if len(table_set) == 0:
 		logging.warning("No Content for ticker: " + ticker + ", url:" + url)
 		key_stats = constant.NO_CONTENT
+		raise ContentNotFoundException(f'No content for {ticker}')
 	else:
 		key_stats = get_attribute_values(table_set)
 	logging.debug(str(key_stats))

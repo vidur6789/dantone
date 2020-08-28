@@ -22,9 +22,12 @@ logging.basicConfig(filename=str(PATH_TMP / "logs.txt"), format='%(asctime)s -%(
 
 def main():
     tickers = read_request()
+    tickers = list(set(tickers)) # remove duplicates
     logging.info("Fetching statistics for " + str(tickers))
     response = mstar_scraper.get_results(tickers)
     write_response(response)
+    logging.info("Download Complete")
+
 
 
 def read_request():
@@ -50,6 +53,7 @@ else:
 # TODO
 '''
 - combine key and finance stats
+- store in 3D(stock, stat, period) numpy, with labels
 - normalize attribute names
 - create stock class
 - get attribute names

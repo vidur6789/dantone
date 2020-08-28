@@ -22,21 +22,21 @@ def get_results(tickers):
     err_count = 0  # consecutive error count
     scrapers = get_scrapers().items()
     for ticker in tickers:
-        stock = {constant.ATTR_SYMBOL: ticker}
-        for key, scrape in scrapers:
-            try:
-                intermediate_results = scrape(ticker)
-                stock[key] = intermediate_results
-                stocks.append(stock)
-                err_count = 0  # reset consecutive error count
-            except ContentNotFoundException as ce:
-                logging.exception("ContentNotFoundException in MorningStarScraper.get_results for: " + ticker)
-                errors.append(Error(ticker, ce))
-            except Exception as e:
-                logging.exception("Exception in MorningStarScraper.get_results for: " + ticker)
-                errors.append(Error(ticker, e))
-                err_count += 1
-        pending.remove(ticker)
+        try:
+            stock = {constant.ATTR_SYMBOL: ticker}
+            for key, scrape in scrapers:
+                    intermediate_results = scrape(ticker)
+                    stock[key] = intermediate_results
+                    err_count = 0  # reset consecutive error count
+            stocks.append(stock)
+            pending.remove(ticker)
+        except ContentNotFoundException as ce:
+            logging.exception("ContentNotFoundException in MorningStarScraper.get_results for: " + ticker)
+            errors.append(Error(ticker, ce))
+        except Exception as e:
+            logging.exception("Exception in MorningStarScraper.get_results for: " + ticker)
+            errors.append(Error(ticker, e))
+            err_count += 1
         if err_count >= 5:
             break
     write_progress(stocks, pending, errors)
