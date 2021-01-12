@@ -1,0 +1,4 @@
+TransactionType,Price,Quantity,Ticker,Exchange,Currency,Date
+BUY,23.482,36,BAC,NYSE,USD,02/01/2020
+BUY,142.51,7,BA,NYSE,USD,02/01/2020
+BUY,124.15,6,DIS,NYSE,USD,02/01/2020

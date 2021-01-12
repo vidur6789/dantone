@@ -1,6 +1,6 @@
 import constants.constant as constant
 from decimal import Decimal
-import adapter.FinancialAdapter as finadapter
+import adapter.finance as finadapter
 
 
 class Filter:
@@ -40,7 +40,7 @@ class CurrentRatioFiler(Filter):
         return Filter.is_available(cell_value) and Decimal(cell_value) >= Decimal(1.5)
 
 
-# Total Debt > 110% of Working Cap
+# Total Debt < 110% of Working Cap
 class DebtWorkingCapFilter(Filter):
     @staticmethod
     def evaluate(stock):
