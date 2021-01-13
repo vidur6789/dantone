@@ -1,16 +1,12 @@
 
 
 import logging
-
-import pandas as pd
 import datetime
-
 from typing import Union
+
 from portfolio.portfolio import Stock
 
-
 # quandl.ApiConfig.api_key = 'jAzEjxUxgSvbNLxxKffz'
-
 
 
 def get_bse_quote(ticker):
@@ -51,6 +47,31 @@ def get_price(stock: Union[str, Stock], suffix='', req_date=-1, dur='max'):
         return hist['Close'].loc[req_date]
     else:
         raise TypeError('req_date should be of type datetime.Date, str(yyyy-mm-dd), int(index)')
+
+
+def get_fx_rate(fx_from, fx_to, fx_date: datetime.date = None):
+    from forex_python.converter import get_rate
+
+    return get_rate(base_cur=fx_from, dest_cur=fx_to, date_obj=fx_date)
+
+
+def get_dividends(stock: Union[str, Stock], start_date: datetime.date, end_date: datetime.date = None):
+    '''
+    returns a Pandas Series object containing dividends for the relevant dates with datetime index
+    '''
+    import yfinance as yf
+
+    ticker = stock.ticker if isinstance(stock, Stock) else stock
+    ticker = ticker.replace('.', '-') # companies with multiple class of shares BRK-B instead of BRK.B
+    dividends = yf.Ticker(ticker).dividends
+    
+    
+    if end_date:
+        idxs = [d for d in dividends.index if d.to_pydatetime().date() > start_date and d.to_pydatetime().date() <= end_date]
+        return dividends.loc[idxs]
+    else:
+        start_date_str = start_date.strftime('%Y-%m-%d')
+        return dividends.loc[start_date_str]
 
 
     

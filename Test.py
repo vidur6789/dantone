@@ -1,6 +1,6 @@
 
 import adapter.finance as fin
-from datetime import datetime
+from datetime import datetime, date
 from decimal import Decimal
 
 
@@ -25,5 +25,7 @@ for h in holdings:
     print(h)
 
 print(pf.unrealised_return())
+
+
 
 

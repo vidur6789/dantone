@@ -128,7 +128,7 @@ class Portfolio:
         holdings = {} 
         holdings_value = Decimal(0)
         
-        # for each transaction date
+        # for each holding period
         for i in range(len(dates) - 1):
             beg_date, end_date = dates[i], dates[i+1]
             
@@ -145,7 +145,7 @@ class Portfolio:
             # holding period return
             holdings_value = sum([Decimal(fin.get_price(stock, req_date=end_date)) * qty for stock, qty in holdings.items()])
 
-            dividends = Decimal(0) # TODO
+            dividends = sum([Decimal(fin.get_dividends(stock, start_date=beg_date, end_date=end_date).sum()) * qty for stock, qty in holdings.items()])
             hpr = (holdings_value + dividends - beg_value) / beg_value
             returns.append(hpr)
 
@@ -185,8 +185,8 @@ def read_csv(filepath: str, name: Optional[str]) -> Portfolio:
     
 
 
+# Dividends
 # Currency Handling -> Present vs Transaction Date FX rate
 # Fees Handling -> Transaction + FX(new Type)
-# Dividends
 # API
 # Dash interface
