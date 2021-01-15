@@ -10,7 +10,7 @@ from portfolio.portfolio import Transaction, Portfolio, Stock, read_csv
 from constants.enums import TransactionType
  
 
-pf = read_csv('test/data/test3.csv', name='FSM')
+pf = read_csv('test/data/test4.csv', name='FSM')
 
 returns = pf.time_weighted_return()
 
