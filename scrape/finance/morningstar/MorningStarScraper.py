@@ -32,10 +32,10 @@ def get_results(tickers):
             pending.remove(ticker)
         except ContentNotFoundException as ce:
             logging.exception("ContentNotFoundException in MorningStarScraper.get_results for: " + ticker)
-            errors.append(Error(ticker, ce))
+            errors.append(Error(ticker, str(ce)))
         except Exception as e:
             logging.exception("Exception in MorningStarScraper.get_results for: " + ticker)
-            errors.append(Error(ticker, e))
+            errors.append(Error(ticker, str(e)))
             err_count += 1
         if err_count >= 5:
             break
