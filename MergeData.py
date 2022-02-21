@@ -39,4 +39,4 @@ def collect_attr_dict(file_path, attr_name):
 
 
 if __name__ == "__main__":
-    merge_attributes(constant.PATH_OUT, constant.FILE_MS_STAT)
+    accumulate_results(constant.PATH_OUT/'20220220_Mstar', constant.FILE_MS_STAT)
