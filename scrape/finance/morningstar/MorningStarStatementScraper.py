@@ -88,11 +88,5 @@ def get_results(stmt_type, ticker):
 	utils.random_sleep(min_sleep=7, max_sleep=13)
 	attribute_values = get_attribute_values(soup)
 	stmt_data = transform_data(attribute_values)
-	# table_set = soup.find_all('table')
-	# if len(table_set) == 0:
-	# 	logging.warning("No Content for ticker: " + ticker + ", url:" + url)
-	# 	key_stats = constant.NO_CONTENT
-	# else:
-	# 	key_stats = get_attribute_values(table_set)
 	logging.debug(str(stmt_data))
 	return stmt_data
