@@ -12,9 +12,10 @@ from constants.constant import PATH_IN, PATH_OUT, PATH_TMP
 import utils.commonutils as utils
 
 # CONFIG
-stock_file_path = PATH_IN / "StockList.xlsx"
+stock_file_path = PATH_IN / "StockList_SP500_NASDAQ100.xlsx"
 stat_file_path = PATH_IN / 'StatList.xlsx'
 out_file_name = 'Results ' + utils.current_datetime_str()
+
 # ERROR/WARN(prod)/INFO(dev/monitor)/DEBUG(dev)
 logging.basicConfig(filename=str(PATH_TMP / "logs.txt"), format='%(asctime)s -%(levelname)s-%(message)s',
                     level=logging.INFO, filemode="a")
