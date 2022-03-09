@@ -7,12 +7,21 @@ import constants.constant as constant
 from constants.exceptions import ContentNotFoundException
 from scrape.finance.morningstar.MorningStarKeyStatScraper import get_results as keystatscraper
 from scrape.finance.morningstar.MorningStarFinanceStatScraper import get_results as finstatscraper
+from scrape.finance.morningstar.MorningStarStatementScraper import get_results as statementscraper
+
 from utils.scraperutils import write_progress
 import logging
+from functools import partial
+
 
 
 def get_scrapers():
-    return {constant.ATTR_FIN_STAT: finstatscraper,  constant.ATTR_KEY_STAT: keystatscraper}
+    return {
+        constant.ATTR_FIN_STAT: finstatscraper,
+        constant.ATTR_KEY_STAT: keystatscraper, 
+        constant.ATTR_BALANCE_SHEET: partial(statementscraper, constant.STMT_TYPE_BALANCE_SHEET),
+        constant.ATTR_INCOME_STATEMENT: partial(statementscraper, constant.STMT_TYPE_INCOME_STMT),
+        constant.ATTR_CASHFLOW_STATEMENT: partial(statementscraper, constant.STMT_TYPE_CASHFLOW)}
 
 
 def get_results(tickers):

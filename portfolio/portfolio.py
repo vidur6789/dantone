@@ -184,7 +184,7 @@ def read_csv(filepath: str, name: Optional[str]) -> Portfolio:
 
     
 
-
+# TODO
 # Currency Handling -> Present vs Transaction Date FX rate
 # Fees Handling -> Transaction + FX(new Type)
 # Dividends

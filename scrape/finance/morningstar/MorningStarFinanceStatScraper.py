@@ -1,6 +1,6 @@
 import logging
 
-import constants.constant as constant
+import constants.constant as const
 import utils.commonutils as utils
 import utils.scraperutils as scraperutils
 from constants.namedtuples import Column
@@ -32,8 +32,8 @@ def get_attribute_values_from_table(table_soup):
 			stat_values = []
 			for column in columns:
 				value = cell_tags[column.index].string
-				stat_values.append({"period": column.name, "value": value})
-			stat = {"name": name_prefix + row_name, "values": stat_values}
+				stat_values.append({const.ATTR_PERIOD: column.name, const.ATTR_VALUE: value})
+			stat = {const.ATTR_STAT_NAME: name_prefix + row_name, const.ATTR_VALUES: stat_values}
 			key_stats.append(stat)
 	return key_stats
 
@@ -72,7 +72,7 @@ def get_results(ticker):
 	table_set = soup.find_all('table')
 	if len(table_set) == 0:
 		logging.warning("No Content for ticker: " + ticker + ", url:" + url)
-		key_stats = constant.NO_CONTENT
+		key_stats = const.NO_CONTENT
 		raise ContentNotFoundException(f'No content for {ticker}')
 	else:
 		key_stats = get_attribute_values(table_set)
